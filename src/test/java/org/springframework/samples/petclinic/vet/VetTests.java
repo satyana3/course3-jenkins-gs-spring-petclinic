@@ -23,6 +23,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * @author Dave Syer
  */
+/**
+*@SSS
+*/
 class VetTests {
 
 	@Test
