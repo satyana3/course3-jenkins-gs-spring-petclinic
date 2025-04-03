@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Hello Checkout'
+            }
+            stage('Build') {
+            steps {
+                echo 'Hello Build'
+            }
+            stage('Capture') {
+            steps {
+                echo 'Hello Capture'
+            }
+            stage('Hello') {
+            steps {
+                echo 'Hello Mail'
+            }
+        }
+    }
+}
