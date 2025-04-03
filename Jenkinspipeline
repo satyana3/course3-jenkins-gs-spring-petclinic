@@ -6,15 +6,18 @@ pipeline {
             steps {
                 echo 'Hello Checkout'
             }
-            stage('Build') {
+        }
+        stage('Build') {
             steps {
                 echo 'Hello Build'
             }
-            stage('Capture') {
+        }
+        stage('Capture') {
             steps {
                 echo 'Hello Capture'
             }
-            stage('Hello') {
+        }
+        stage('Hello') {
             steps {
                 echo 'Hello Mail'
             }
